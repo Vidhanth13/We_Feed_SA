@@ -8,6 +8,7 @@ namespace WeFeedSA
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //change as a test
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
