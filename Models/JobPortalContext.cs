@@ -29,6 +29,8 @@ public partial class JobPortalContext : DbContext
 
     public virtual DbSet<JobSeekerSkill> JobSeekerSkills { get; set; }
 
+    public virtual DbSet<Notification> Notifications { get; set; }
+
     public virtual DbSet<Payment> Payments { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
@@ -235,6 +237,31 @@ public partial class JobPortalContext : DbContext
                 .HasForeignKey(d => d.JobSeekerId)
                 .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__JobSeeker__JobSe__59FA5E80");
+        });
+
+        modelBuilder.Entity<Notification>(entity =>
+        {
+            entity.HasKey(e => e.NotificationId).HasName("PK__Notifica__20CF2E32C785A096");
+
+            entity.HasIndex(e => e.UserId, "idx_notifications_userid");
+
+            entity.Property(e => e.NotificationId).HasColumnName("NotificationID");
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.IsActionRequired).HasDefaultValue(false);
+            entity.Property(e => e.IsRead).HasDefaultValue(false);
+            entity.Property(e => e.Message).HasColumnType("text");
+            entity.Property(e => e.NotificationType)
+                .HasMaxLength(20)
+                .IsUnicode(false);
+            entity.Property(e => e.ReadAt).HasColumnType("datetime");
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Notifications)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__Notificat__UserI__498EEC8D");
         });
 
         modelBuilder.Entity<Payment>(entity =>

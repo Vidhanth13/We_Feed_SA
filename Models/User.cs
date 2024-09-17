@@ -22,4 +22,6 @@ public partial class User
     public virtual ICollection<Employer> Employers { get; set; } = new List<Employer>();
 
     public virtual ICollection<JobSeeker> JobSeekers { get; set; } = new List<JobSeeker>();
+
+    public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
 }

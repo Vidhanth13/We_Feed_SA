@@ -135,3 +135,4 @@ C:\Users\lab_services_student\source\repos\WeFeedSA\obj\Debug\net8.0\refint\WeFe
 C:\Users\lab_services_student\source\repos\WeFeedSA\obj\Debug\net8.0\WeFeedSA.pdb
 C:\Users\lab_services_student\source\repos\WeFeedSA\obj\Debug\net8.0\WeFeedSA.genruntimeconfig.cache
 C:\Users\lab_services_student\source\repos\WeFeedSA\obj\Debug\net8.0\ref\WeFeedSA.dll
+C:\Users\lab_services_student\source\repos\WeFeedSA\obj\Debug\net8.0\WeFeedSA.sourcelink.json
