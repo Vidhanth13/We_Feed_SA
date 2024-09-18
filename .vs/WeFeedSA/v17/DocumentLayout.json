@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|c:\\users\\lab_services_student\\source\\repos\\wefeedsa\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\controllers\\jobseekerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:controllers\\jobseekerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\views\\userregister\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:views\\userregister\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|c:\\users\\lab_services_student\\source\\repos\\wefeedsa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\controllers\\employerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:controllers\\employerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B30119FA-09DE-4523-B3D8-C3AB1888A7F4}|WeFeedSA.csproj|C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -22,11 +50,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobSeekerRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\JobSeekerRegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerRegistrationController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\JobSeekerRegistrationController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerRegistrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:10:25.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:52:54.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T16:18:15.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployerRegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\EmployerRegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployerRegistrationController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\EmployerRegistrationController.cs",
+              "RelativeToolTip": "Controllers\\EmployerRegistrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:08:53.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:42:08.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\UserRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRegisterController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Controllers\\UserRegisterController.cs",
+              "RelativeToolTip": "Controllers\\UserRegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:29:14.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Views\\UserRegister\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserRegister\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Views\\UserRegister\\Index.cshtml",
+              "RelativeToolTip": "Views\\UserRegister\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T18:44:08.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Models\\Employer.cs",
+              "RelativeDocumentMoniker": "Models\\Employer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Models\\Employer.cs",
+              "RelativeToolTip": "Models\\Employer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:48:10.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -38,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -46,20 +175,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-11T16:46:07.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\WeFeedSA\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T16:42:08.518Z"
+              "WhenOpened": "2024-09-11T16:46:07.121Z"
             }
           ]
         }

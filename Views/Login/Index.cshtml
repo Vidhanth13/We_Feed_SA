@@ -1,0 +1,85 @@
+﻿@model WeFeedSA.Models.User
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Ensure you're using a shared layout for consistency
+}
+
+<!-- Container for the Login Form -->
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg p-4" style="max-width: 400px; width: 100%; border-radius: 15px;">
+        <h3 class="text-center text-primary mb-4">Login</h3>
+
+        <!-- Begin Form -->
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "login-form" }))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.Username, htmlAttributes: new { @class = "form-label text-primary" })
+                @Html.TextBoxFor(m => m.Username, new { @class = "form-control", placeholder = "Enter your username" })
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mt-3">
+                @Html.LabelFor(m => m.PasswordHash, htmlAttributes: new { @class = "form-label text-primary" })
+                @Html.PasswordFor(m => m.PasswordHash, new { @class = "form-control", placeholder = "Enter your password" })
+                @Html.ValidationMessageFor(m => m.PasswordHash, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mt-3 d-flex justify-content-between align-items-center">
+                <div>
+                    <input type="checkbox" id="rememberMe" name="rememberMe" />
+                    <label for="rememberMe" class="text-secondary"> Remember me</label>
+                </div>
+                <a href="@Url.Action("ForgotPassword", "Account")" class="text-primary">Forgot password?</a>
+            </div>
+
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary btn-block w-100" style="border-radius: 5px;">Login</button>
+            </div>
+        }
+        <!-- End Form -->
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .form-control {
+            border: 1px solid #007bff;
+            border-radius: 5px;
+        }
+
+        .form-label {
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+        .text-primary {
+            color: #007bff !important;
+        }
+
+        .text-secondary {
+            color: #6c757d;
+        }
+
+        .container {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .card {
+            background-color: #ffffff;
+        }
+    </style>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
