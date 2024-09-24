@@ -1,5 +1,144 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model WeFeedSA.Controllers.RegisterEmployerController
+{
+    ViewBag.Title = "Employer Registration";
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register (Employer)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #D8B89A; /* Matches the brownish desk color */
+        }
+
+        .container {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            background-image: url('/path-to-your-image/laptop-background.jpg'); /* Image of the laptop */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 100px;
+        }
+
+        .form-content {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: white;
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group input {
+                width: 100%;
+                padding: 15px;
+                border-radius: 40px;
+                border: none;
+                font-size: 18px;
+                background-color: white;
+                color: #6C6C6C;
+            }
+
+                .form-group input::placeholder {
+                    color: #B0B0B0; /* Matches the light gray placeholder text */
+                    font-family: 'Arial', sans-serif;
+                    font-weight: lighter;
+                }
+
+                .form-group input:focus {
+                    outline: none;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+
+        .register-button {
+            display: block;
+            width: 200px;
+            padding: 15px;
+            background-color: #2E497A;
+            color: white;
+            border: none;
+            border-radius: 40px;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+            .register-button:hover {
+                background-color: #1F3D65;
+            }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <div class="form-content">
+                <h1>REGISTER (EMPLOYER)</h1>
+
+                <form method="post">
+                    <!-- Company Name -->
+                    <div class="form-group">
+                        <input type="text" id="CompanyName" name="CompanyName" placeholder="Company Name" required>
+                    </div>
+
+                    <!-- Contact Person -->
+                    <div class="form-group">
+                        <input type="text" id="ContactPerson" name="ContactPerson" placeholder="Contact Person" required>
+                    </div>
+
+                    <!-- Industry -->
+                    <div class="form-group">
+                        <input type="text" id="Industry" name="Industry" placeholder="Industry" required>
+                    </div>
+
+                    <!-- Company Location -->
+                    <div class="form-group">
+                        <input type="text" id="CompanyLocation" name="CompanyLocation" placeholder="Company Location" required>
+                    </div>
+
+                    <!-- Contact Number (Numerical Input) -->
+                    <div class="form-group">
+                        <input type="number" id="ContactNumber" name="ContactNumber" placeholder="Contact Number" required>
+                    </div>
+
+                    <!-- Website -->
+                    <div class="form-group">
+                        <input type="text" id="Website" name="Website" placeholder="Website">
+                    </div>
+
+                    <!-- Register Button -->
+                    <button type="submit" class="register-button">REGISTER</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

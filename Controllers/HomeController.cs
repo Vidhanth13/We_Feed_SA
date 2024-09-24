@@ -6,23 +6,33 @@ namespace WeFeedSA.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+        // GET: Home Page (Landing Page)
         public IActionResult Index()
         {
             return View();
         }
 
+        // GET: About Us Page
+        public IActionResult About()
+        {
+            ViewBag.Message = "Your application description page.";
+            return View();
+        }
+
+        // GET: Contact Us Page
+        public IActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+            return View();
+        }
+
+        // GET: Privacy Policy Page
         public IActionResult Privacy()
         {
             return View();
         }
 
+        // Error Handling (Used for displaying custom error pages)
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

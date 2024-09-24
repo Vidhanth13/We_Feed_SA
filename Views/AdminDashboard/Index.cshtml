@@ -1,0 +1,92 @@
+﻿@model WeFeedSA.Controllers.AdminDashboardController
+{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #6D8195; /* Matching background color */
+        }
+
+        .dashboard-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        .dashboard-title {
+            font-size: 40px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+
+        .dashboard-subtitle {
+            color: #DFDFE1;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+        }
+
+        .dashboard-button {
+            background-color: #DFDFE1;
+            color: #000;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 30px 60px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+            .dashboard-button:hover {
+                transform: scale(1.05);
+            }
+
+            .dashboard-button:active {
+                transform: scale(0.95);
+            }
+
+        .profile-image {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-title">ADMIN DASHBOARD</div>
+        <div class="dashboard-subtitle">ALERTS</div>
+
+        <div class="buttons-container">
+            <button class="dashboard-button" onclick="location.href='@Url.Action("ManageUsers", "Admin")'">MANAGE USERS</button>
+            <button class="dashboard-button" onclick="location.href='@Url.Action("PaymentInfo", "Admin")'">VIEW PAYMENT INFO</button>
+        </div>
+    </div>
+
+    <!-- Profile Image -->
+    <img src="/images/profile-pic.png" alt="Profile Picture" class="profile-image">
+</body>
+</html>

@@ -1,5 +1,134 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@model WeFeedSA.Controllers.RegisterJobSeekerController
+{
+    ViewBag.Title = "Register (Job Seeker)";
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('/images/background.jpg'); /* Optional background image if needed */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .register-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 450px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            color: #ffffff;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        input[type="text"], input[type="tel"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .consent-section {
+            margin-bottom: 20px;
+        }
+
+            .consent-section label {
+                display: inline-block;
+                font-size: 14px;
+                color: #555;
+            }
+
+            .consent-section select {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+                background-color: #f8f8f8;
+            }
+
+        .register-btn {
+            background-color: #1E3A59;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .register-btn:hover {
+                background-color: #17445a;
+            }
+
+        .logo {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <h1>REGISTER (JOB SEEKER)</h1>
+
+        <form method="post" action="/JobSeeker/CreateCV">
+            <label for="FullName">FULL NAME</label>
+            <input type="text" id="FullName" name="FullName" placeholder="Enter full name" required />
+
+            <label for="Location">LOCATION</label>
+            <input type="text" id="Location" name="Location" placeholder="Enter location" required />
+
+            <label for="PhoneNumber">PHONE NUMBER</label>
+            <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="Enter phone number" required />
+
+            <div class="consent-section">
+                <label for="Consent">CONSENT</label>
+                <select id="Consent" name="Consent" required>
+                    <option value="" disabled selected>Select...</option>
+                    <option value="Agree">I agree to the POPIA Act</option>
+                    <option value="Disagree">I do not agree to the POPIA Act</option>
+                </select>
+            </div>
+
+            <button type="submit" class="register-btn">REGISTER</button>
+        </form>
+
+        <!-- Company Logo -->
+        <img src="/images/careerbridge-logo.png" alt="Career Bridge" class="logo" />
+    </div>
+
+</body>
+</html>

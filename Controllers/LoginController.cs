@@ -12,44 +12,32 @@ namespace WeFeedSA.Controllers
             _context = context;
         }
 
-        // GET: Login page
+        [HttpGet]
         public IActionResult Login()
         {
-            return View();
+            return View("Login"); // Map to the login view
         }
 
-        // POST: Handle login (for Job Seeker, Employer, or Admin)
         [HttpPost]
-        public async Task<IActionResult> Login(string username, string password)
+        public IActionResult Login(LoginViewModel model)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Username == username);
-
-            if (user != null && VerifyPassword(password, user.PasswordHash))
+            if (ModelState.IsValid)
             {
-                // Redirect based on user type
-                if (user.UserType == "JobSeeker")
+                var user = _context.Users
+                    .FirstOrDefault(u => u.Username == model.Username && u.PasswordHash == HashPassword(model.Password));
+
+                if (user != null)
                 {
-                    return RedirectToAction("Dashboard", "JobSeeker");
+                    if (user.UserType == "JobSeeker")
+                        return RedirectToAction("JobSeekerDashboard", "JobSeekerDashboard");
+                    else if (user.UserType == "Employer")
+                        return RedirectToAction("EmployerDashboard", "EmployerDashboard");
+                    else if (user.UserType == "Admin")
+                        return RedirectToAction("AdminDashboard", "AdminDashboard");
                 }
-                else if (user.UserType == "Employer")
-                {
-                    return RedirectToAction("Dashboard", "Employer");
-                }
-                else if (user.UserType == "Admin")
-                {
-                    return RedirectToAction("AdminDashboard", "Admin"); // Assuming an Admin controller exists
-                }
+                ModelState.AddModelError("", "Invalid login attempt.");
             }
-
-            ModelState.AddModelError("", "Invalid login attempt.");
-            return View();
-        }
-
-        // Utility method for password verification (should be implemented)
-        private bool VerifyPassword(string enteredPassword, string storedHash)
-        {
-            // Implement password hash verification
-            return enteredPassword == storedHash;
+            return View("Login", model); // Map to the login view
         }
     }
 }

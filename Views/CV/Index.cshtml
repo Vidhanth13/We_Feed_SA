@@ -1,0 +1,118 @@
+﻿@model WeFeedSA.Controllers.CVController
+{
+    ViewBag.Title = "Create CV";
+}
+
+<!-- Page container to hold the background color and the form -->
+<div style="background-color: #536D80; padding: 50px; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+    <!-- Form container -->
+    <div style="background-color: white; border-radius: 10px; padding: 30px; width: 600px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+        <!-- Title -->
+        <h1 style="color: #ffffff; background-color: #536D80; text-align: center; padding: 10px 0; font-size: 32px; border-radius: 5px;">CREATE CV</h1>
+
+        <!-- Form starts here -->
+        <form method="post" enctype="multipart/form-data">
+            <!-- First row: First Name and Certifications -->
+            <div style="display: flex; gap: 10px;">
+                <div style="flex: 1;">
+                    <label for="FirstName">First Name</label>
+                    <input type="text" id="FirstName" name="FirstName" placeholder="First Name" style="width: 100%; padding: 10px; margin-top: 5px;" required />
+                </div>
+                <div style="flex: 1;">
+                    <label for="Certifications">Certifications</label>
+                    <input type="text" id="Certifications" name="Certifications" placeholder="Certifications" style="width: 100%; padding: 10px; margin-top: 5px;" />
+                </div>
+            </div>
+
+            <!-- Second row: Last Name and Employment Status (Dropdown) -->
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <label for="LastName">Last Name</label>
+                    <input type="text" id="LastName" name="LastName" placeholder="Last Name" style="width: 100%; padding: 10px; margin-top: 5px;" required />
+                </div>
+                <div style="flex: 1;">
+                    <label for="EmploymentStatus">Employment Status</label>
+                    <select id="EmploymentStatus" name="EmploymentStatus" style="width: 100%; padding: 10px; margin-top: 5px;" required>
+                        <option value="" disabled selected>Select Employment Status</option>
+                        <option value="employed">Employed</option>
+                        <option value="unemployed">Unemployed</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Third row: Email Address and Level of Education (Dropdown) -->
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <label for="Email">Email Address</label>
+                    <input type="email" id="Email" name="Email" placeholder="Email Address" style="width: 100%; padding: 10px; margin-top: 5px;" required />
+                </div>
+                <div style="flex: 1;">
+                    <label for="LevelOfEducation">Level of Education</label>
+                    <select id="LevelOfEducation" name="LevelOfEducation" style="width: 100%; padding: 10px; margin-top: 5px;" required>
+                        <option value="" disabled selected>Select Level of Education</option>
+                        <option value="highschool">High School</option>
+                        <option value="diploma">Diploma</option>
+                        <option value="degree">Degree</option>
+                        <option value="postgraduate">Postgraduate</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Fourth row: Phone Number and Tertiary Description -->
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <label for="PhoneNumber">Phone Number</label>
+                    <input type="number" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" style="width: 100%; padding: 10px; margin-top: 5px;" required />
+                </div>
+                <div style="flex: 1;">
+                    <label for="TertiaryDescription">If Tertiary, Type a Description</label>
+                    <input type="text" id="TertiaryDescription" name="TertiaryDescription" placeholder="Tertiary Description" style="width: 100%; padding: 10px; margin-top: 5px;" />
+                </div>
+            </div>
+
+            <!-- Fifth row: City (Dropdown) and About You -->
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <label for="City">City</label>
+                    <select id="City" name="City" style="width: 100%; padding: 10px; margin-top: 5px;" required>
+                        <option value="" disabled selected>Select City</option>
+                        <option value="newyork">New York</option>
+                        <option value="london">London</option>
+                        <option value="sydney">Sydney</option>
+                        <option value="tokyo">Tokyo</option>
+                    </select>
+                </div>
+                <div style="flex: 1;">
+                    <label for="AboutYou">About You</label>
+                    <textarea id="AboutYou" name="AboutYou" placeholder="About You" style="width: 100%; padding: 10px; margin-top: 5px;" rows="3"></textarea>
+                </div>
+            </div>
+
+            <!-- Sixth row: Experience (Integer) and Skills -->
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div style="flex: 1;">
+                    <label for="Experience">Experience (Years)</label>
+                    <input type="number" id="Experience" name="Experience" placeholder="Experience" style="width: 100%; padding: 10px; margin-top: 5px;" required />
+                </div>
+                <div style="flex: 1;">
+                    <label for="Skills">Skills</label>
+                    <input type="text" id="Skills" name="Skills" placeholder="Skills" style="width: 100%; padding: 10px; margin-top: 5px;" />
+                </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div style="margin-top: 30px; display: flex; justify-content: space-between;">
+                <button type="button" style="padding: 10px 20px; background-color: #0E7B9D; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Add Skills
+                </button>
+                <button type="submit" style="padding: 10px 20px; background-color: #0E7B9D; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Upload Files
+                </button>
+                <button type="submit" style="padding: 10px 20px; background-color: #0E7B9D; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Create
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

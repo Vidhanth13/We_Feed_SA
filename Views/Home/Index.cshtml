@@ -1,8 +1,50 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model WeFeedSA.Controllers.HomeController
+{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Assuming you have a shared layout
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Container for the entire page -->
+<div class="container-fluid" style="background-color: #6E83A2; min-height: 100vh; padding: 0;">
+    <!-- Navigation Bar -->
+    <div class="row" style="background-color: #BFC9D9; padding: 15px;">
+        <div class="col text-center">
+            <a href="#" style="color: #1D4E7B; font-size: 18px; font-weight: bold; text-decoration: none;">Home</a>
+        </div>
+        <div class="col text-center">
+            <a href="#" style="color: #1D4E7B; font-size: 18px; font-weight: bold; text-decoration: none;">About Us</a>
+        </div>
+        <div class="col text-center">
+            <a href="#" style="color: #1D4E7B; font-size: 18px; font-weight: bold; text-decoration: none;">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="row" style="min-height: 75vh; display: flex; justify-content: center; align-items: center; position: relative;">
+        <div class="col-md-6" style="padding: 50px;">
+            <h1 style="font-size: 60px; font-weight: bold; color: #E3EFFF;">YOUR CAREER, <br /> YOUR JOURNEY</h1>
+            <div class="mt-4">
+                <button class="btn btn-primary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; margin-right: 15px;">Login</button>
+                <button class="btn btn-secondary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px;">Register</button>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <div style="background-color: #F2F4F7; padding: 50px; border-radius: 10px;">
+                <img src="~/images/career_bridge_logo.png" alt="Career Bridge Logo" style="max-width: 100px;" />
+                <h2 style="color: #1D4E7B;">Career Bridge</h2>
+                <p style="color: #1D4E7B;">Job Portal</p>
+            </div>
+        </div>
+
+        <!-- 3D floating shapes (Can use images or CSS for similar effect) -->
+        <div style="position: absolute; top: 10%; left: 5%; z-index: -1;">
+            <img src="~/images/shape1.png" alt="Shape 1" style="width: 100px;" />
+        </div>
+        <div style="position: absolute; top: 50%; right: 10%; z-index: -1;">
+            <img src="~/images/shape2.png" alt="Shape 2" style="width: 100px;" />
+        </div>
+        <div style="position: absolute; bottom: 20%; left: 30%; z-index: -1;">
+            <img src="~/images/shape3.png" alt="Shape 3" style="width: 100px;" />
+        </div>
+    </div>
 </div>

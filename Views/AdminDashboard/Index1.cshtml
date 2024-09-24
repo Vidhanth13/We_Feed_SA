@@ -1,0 +1,177 @@
+﻿@model WeFeedSA.Controllers.AdminDashboardController
+{
+    ViewBag.Title = "View Payment Info";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Payment Info</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #6D8195; /* Matching background color */
+        }
+
+        .dashboard-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        .dashboard-title {
+            font-size: 40px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+
+        .button-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #DFDFE1;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 20px;
+            width: 80%;
+        }
+
+        .row-text {
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            display: flex;
+            align-items: center;
+        }
+
+            .row-text img {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+        .button-container {
+            display: flex;
+            gap: 15px;
+        }
+
+        .dashboard-button {
+            background-color: #2F477A;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+            .dashboard-button:hover {
+                transform: scale(1.05);
+            }
+
+            .dashboard-button:active {
+                transform: scale(0.95);
+            }
+
+        .profile-image {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .return-button {
+            background-color: #2F477A;
+            color: white;
+            font-size: 20px;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 40px;
+            cursor: pointer;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+            .return-button:hover {
+                transform: scale(1.05);
+            }
+
+            .return-button:active {
+                transform: scale(0.95);
+            }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-title">VIEW PAYMENT INFO</div>
+
+        <!-- Row for each payment entry -->
+        <div class="button-row">
+            <div class="row-text">
+                <img src="/images/warning-icon.png" alt="Warning">
+                JACOB'S PLUMBING PAID TO VIEW PROFILE
+            </div>
+            <div class="button-container">
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Notify", "Admin")'">NOTIFY</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Invoice", "Admin")'">INVOICE</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("PaymentHistory", "Admin")'">INFO</button>
+            </div>
+        </div>
+
+        <div class="button-row">
+            <div class="row-text">
+                <img src="/images/warning-icon.png" alt="Warning">
+                ACE HARDWARE PAID TO VIEW PROFILE
+            </div>
+            <div class="button-container">
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Notify", "Admin")'">NOTIFY</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Invoice", "Admin")'">INVOICE</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("PaymentHistory", "Admin")'">INFO</button>
+            </div>
+        </div>
+
+        <div class="button-row">
+            <div class="row-text">
+                <img src="/images/warning-icon.png" alt="Warning">
+                JACK'S TYRES PAID TO VIEW PROFILE
+            </div>
+            <div class="button-container">
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Notify", "Admin")'">NOTIFY</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Invoice", "Admin")'">INVOICE</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("PaymentHistory", "Admin")'">INFO</button>
+            </div>
+        </div>
+
+        <div class="button-row">
+            <div class="row-text">
+                <img src="/images/warning-icon.png" alt="Warning">
+                MIKE'S AUTOS PAID TO VIEW PROFILE
+            </div>
+            <div class="button-container">
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Notify", "Admin")'">NOTIFY</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("Invoice", "Admin")'">INVOICE</button>
+                <button class="dashboard-button" onclick="location.href='@Url.Action("PaymentHistory", "Admin")'">INFO</button>
+            </div>
+        </div>
+
+        <!-- Return button -->
+        <button class="return-button" onclick="location.href='@Url.Action("Dashboard", "Admin")'">RETURN</button>
+    </div>
+
+    <!-- Profile Image -->
+    <img src="/images/profile-pic.png" alt="Profile Picture" class="profile-image">
+
+</body>
+</html>

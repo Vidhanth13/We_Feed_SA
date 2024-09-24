@@ -26,8 +26,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\lab_services_student\source\repos\WeFeedSA
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/AdminDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/AdminDashboard/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5EYXNoYm9hcmRcSW5kZXgxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/CV/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/CV/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1ZcSW5kZXgxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/EmployerDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lab_services_student/source/repos/WeFeedSA/Views/EmployerRegistration/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJSZWdpc3RyYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lab_services_student/source/repos/WeFeedSA/Views/Home/Index.cshtml]
@@ -36,6 +64,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/lab_services_student/source/repos/WeFeedSA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/Home/PrivacyPolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5UG9saWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/JobSeekerDashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lab_services_student/source/repos/WeFeedSA/Views/JobSeekerNotification/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iU2Vla2VyTm90aWZpY2F0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lab_services_student/source/repos/WeFeedSA/Views/JobSeekerRegistration/Index.cshtml]
