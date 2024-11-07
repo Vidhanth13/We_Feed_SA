@@ -1,0 +1,638 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\jobseekerregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\jobseekerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerdashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\jobseekerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\managenotifications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\managenotifications\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\managenotificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\managenotificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\manageuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\jobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\jobseeker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\manageusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\manageusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\manageusers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\jobportaltester1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\jobportaltester1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\admindashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\manageusers\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\manageusers\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\jobseekerworkexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerworkexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\jobseekerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekerprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\jobseekerprofile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerprofile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\jobseekercertificate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekercertificate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\controllers\\jobseekercertificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:controllers\\jobseekercertificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\jobseekerpersonalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\jobseekerpersonalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\skills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\jobseekerworkexp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerworkexp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\cv\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\cv\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\jobseekerregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\jobseekerregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\models\\jobseekercertificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:models\\jobseekercertificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|c:\\users\\lab_services_student\\downloads\\wilwefeedsa-10th-branch\\wilwefeedsa-10th-branch\\views\\userregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31CA18FE-9ADF-44CC-9439-5C74725140C7}|JobPortal1.csproj|solutionrelative:views\\userregister\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobSeekerDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerDashboardController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerDashboardController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerDashboardController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:00.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:45:01.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerDashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerDashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerDashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerDashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T09:45:11.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageNotifications\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageNotifications\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageNotifications\\Index.cshtml",
+              "RelativeToolTip": "Views\\ManageNotifications\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T20:13:31.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobSeekerRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerRegisterController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerRegisterController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerRegisterController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:16:22.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageNotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\ManageNotificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManageNotificationsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\ManageNotificationsController.cs",
+              "RelativeToolTip": "Controllers\\ManageNotificationsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:57:51.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\ManageUsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ManageUsersController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\ManageUsersController.cs",
+              "RelativeToolTip": "Controllers\\ManageUsersController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:57:47.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:34:30.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JobSeeker.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobSeeker.cs",
+              "RelativeDocumentMoniker": "Models\\JobSeeker.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobSeeker.cs",
+              "RelativeToolTip": "Models\\JobSeeker.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:36:24.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAAMYDAAAAAAAAAAD4v9IDAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-06T14:24:16.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:19:39.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\Employer.cs",
+              "RelativeDocumentMoniker": "Models\\Employer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\Employer.cs",
+              "RelativeToolTip": "Models\\Employer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T13:16:13.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAuwCcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:02:07.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:42:11.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "JobPortalTester1Context.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobPortalTester1Context.cs",
+              "RelativeDocumentMoniker": "Models\\JobPortalTester1Context.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobPortalTester1Context.cs",
+              "RelativeToolTip": "Models\\JobPortalTester1Context.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA8wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:15:42.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\AdminDashBoard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminDashBoard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\AdminDashBoard\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminDashBoard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T18:47:12.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageUsers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageUsers\\Index.cshtml",
+              "RelativeToolTip": "Views\\ManageUsers\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwCIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T19:13:39.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageUsers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageUsers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageUsers\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ManageUsers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T19:25:01.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADgvykAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:07:09.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SkillsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "Controllers\\SkillsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwD8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T09:21:10.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageUsers\\CreateAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManageUsers\\CreateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\ManageUsers\\CreateAdmin.cshtml",
+              "RelativeToolTip": "Views\\ManageUsers\\CreateAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T09:22:09.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "Controllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:45:00.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\UserRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRegisterController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\UserRegisterController.cs",
+              "RelativeToolTip": "Controllers\\UserRegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:05:29.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "JobSeekerWorkExp.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerWorkExp.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerWorkExp.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerWorkExp.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerWorkExp.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:13:45.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "JobSeekerProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerProfileController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerProfileController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerProfileController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:04:42.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerProfile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerProfile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerProfile\\Index.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerProfile\\Index.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAmwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T15:09:23.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CvController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\CvController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CvController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\CvController.cs",
+              "RelativeToolTip": "Controllers\\CvController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:16:03.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBZwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T10:29:36.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerCertificate\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerCertificate\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerCertificate\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerCertificate\\Create.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAIBZwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:52:06.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T11:07:12.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JobSeekerCertificateController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerCertificateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobSeekerCertificateController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Controllers\\JobSeekerCertificateController.cs",
+              "RelativeToolTip": "Controllers\\JobSeekerCertificateController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:51:14.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JobSeekerPersonalInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobSeekerPersonalInfo.cs",
+              "RelativeDocumentMoniker": "Models\\JobSeekerPersonalInfo.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobSeekerPersonalInfo.cs",
+              "RelativeToolTip": "Models\\JobSeekerPersonalInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:21:55.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerWorkExp\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerWorkExp\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerWorkExp\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerWorkExp\\Create.cshtml",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowHsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T12:22:09.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\Skills\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Skills\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\Skills\\Create.cshtml",
+              "RelativeToolTip": "Views\\Skills\\Create.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAIBZwIEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T09:20:31.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerRegister\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\JobSeekerRegister\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\JobSeekerRegister\\Create.cshtml",
+              "RelativeToolTip": "Views\\JobSeekerRegister\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T11:19:17.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\CV\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\CV\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\CV\\Create.cshtml",
+              "RelativeToolTip": "Views\\CV\\Create.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAIBZwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T10:39:32.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JobSeekerCertificate.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobSeekerCertificate.cs",
+              "RelativeDocumentMoniker": "Models\\JobSeekerCertificate.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Models\\JobSeekerCertificate.cs",
+              "RelativeToolTip": "Models\\JobSeekerCertificate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:29:06.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\UserRegister\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserRegister\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Downloads\\WilWeFeedSA-10th-Branch\\WilWeFeedSA-10th-Branch\\Views\\UserRegister\\Create.cshtml",
+              "RelativeToolTip": "Views\\UserRegister\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T11:14:21.417Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

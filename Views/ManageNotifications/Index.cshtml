@@ -1,0 +1,79 @@
+﻿@model IEnumerable<JobPortal1.Models.Notification>
+
+@{
+    ViewData["Title"] = "Manage Notifications";
+}
+
+<h2>Manage Notifications</h2>
+
+<!-- Table to Display Existing Notifications -->
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Job Seeker ID</th>
+            <th>Message</th>
+            <th>Notification Type</th>
+            <th>Is Read</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var notification in Model)
+        {
+            <tr>
+                <td>@notification.JobSeekerId</td>
+                <td>@notification.Message</td>
+                <td>@notification.NotificationType</td>
+                <td>@(notification.IsRead ? "Yes" : "No")</td>
+                <td>
+                    <!-- Button to trigger Notify Job Seeker Modal -->
+                    <button type="button" class="btn btn-primary notify-btn" data-jobseekerid="@notification.JobSeekerId">Notify</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal for Notifying Job Seeker -->
+<div class="modal fade" id="notifyJobSeekerModal" tabindex="-1" role="dialog" aria-labelledby="notifyJobSeekerModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form asp-action="SendNotification" asp-controller="ManageNotifications" method="post">
+                @Html.AntiForgeryToken()
+                <div class="modal-header">
+                    <h5 class="modal-title" id="notifyJobSeekerModalLabel">Notify Job Seeker</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Hidden field for Job Seeker ID -->
+                    <input type="hidden" id="jobSeekerId" name="jobSeekerId" />
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4">An employer has paid for your information.</textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send Notification</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript to handle the modal and data population for Notify button -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Click event for Notify button to show modal with job seeker ID
+        $(".notify-btn").on("click", function () {
+            var jobSeekerId = $(this).data("jobseekerid");
+            $("#jobSeekerId").val(jobSeekerId); // Set Job Seeker ID in hidden input
+            $("#notifyJobSeekerModal").modal("show"); // Show the modal
+        });
+    });
+</script>

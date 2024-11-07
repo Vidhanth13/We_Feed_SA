@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Manage Users Tile -->
+        <div class="col-md-6">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Users</h5>
+                    <p class="card-text">Click to view and manage all users.</p>
+                    <a href="@Url.Action("ManageUsers", "AdminDashboard")" class="btn btn-primary">Manage Users</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Manage Notifications Tile -->
+        <div class="col-md-6">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Notifications</h5>
+                    <p class="card-text">Click to view and manage all notifications.</p>
+                    <a href="@Url.Action("ManageNotifications", "AdminDashboard")" class="btn btn-primary">Manage Notifications</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

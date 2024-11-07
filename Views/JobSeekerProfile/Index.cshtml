@@ -1,0 +1,103 @@
+﻿@model JobPortal1.Models.JobSeeker
+
+<div class="container">
+    <h2>Edit Profile</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+
+    <form asp-action="SaveProfile" method="post">
+        <input type="hidden" asp-for="JobSeekerId" />
+
+        @if (Model.JobSeekerPersonalInfos != null && Model.JobSeekerPersonalInfos.Any())
+        {
+            var personalInfo = Model.JobSeekerPersonalInfos.FirstOrDefault();
+
+            <input type="hidden" name="PersonalInfo.PersonalInfoId" value="@personalInfo.PersonalInfoId" />
+
+            <!-- Merged Fields -->
+            <div class="form-group">
+                <label>First Name</label>
+                <input name="firstName" class="form-control" value="@Model.FirstName" />
+            </div>
+
+            <div class="form-group">
+                <label>Last Name</label>
+                <input name="lastName" class="form-control" value="@Model.LastName" />
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input name="phoneNumber" class="form-control" value="@Model.PhoneNumber" />
+            </div>
+
+            <!-- JobSeekerPersonalInfo Additional Fields -->
+            <div class="form-group">
+                <label>City</label>
+                <input name="PersonalInfo.City" class="form-control" value="@personalInfo.City" />
+            </div>
+
+            <div class="form-group">
+                <label>Province</label>
+                <input name="PersonalInfo.Province" class="form-control" value="@personalInfo.Province" />
+            </div>
+
+            <div class="form-group">
+                <label>Suburb</label>
+                <input name="PersonalInfo.Suburb" class="form-control" value="@personalInfo.Suburb" />
+            </div>
+
+            <div class="form-group">
+                <label>Level of Education</label>
+                <select name="PersonalInfo.LevelOfEducation" class="form-control">
+                    <option value="Primary" selected="@((personalInfo.LevelOfEducation == "Primary") ? "selected" : null)">Primary</option>
+                    <option value="High" selected="@((personalInfo.LevelOfEducation == "High") ? "selected" : null)">High</option>
+                    <option value="Tertiary" selected="@((personalInfo.LevelOfEducation == "Tertiary") ? "selected" : null)">Tertiary</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>About You</label>
+                <textarea name="PersonalInfo.AboutYou" class="form-control">@personalInfo.AboutYou</textarea>
+            </div>
+
+            <!-- Save Button -->
+            <button type="submit" class="btn btn-success">Save Changes</button>
+        }
+    </form>
+
+    <!-- Employment Status Toggle -->
+    <div class="form-group mt-4">
+        <label>Employment Status: @(Model.IsEmployed ?? false ? "Employed" : "Unemployed")</label>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="employmentToggle" @(Model.IsEmployed ?? false ? "checked" : "") />
+            <label class="custom-control-label" for="employmentToggle">Toggle Employment Status</label>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Employment status toggle logic
+        $('#employmentToggle').change(function () {
+            var isEmployed = $(this).is(':checked');
+            $.post('@Url.Action("ToggleEmploymentStatus", "JobSeekerProfile")',
+                {
+                    jobSeekerId: '@Model.JobSeekerId',
+                    isEmployed: isEmployed
+                },
+                function (response) {
+                    if (response.success) {
+                        alert('Employment status updated');
+                        location.reload();  // Reload the page to reflect changes
+                    } else {
+                        alert('Error updating employment status');
+                    }
+                }).fail(function () {
+                    alert('Error updating employment status');
+                });
+        });
+    </script>
+}

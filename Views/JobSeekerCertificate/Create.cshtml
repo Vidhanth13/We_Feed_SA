@@ -1,0 +1,134 @@
+﻿@model JobPortal1.Models.JobSeekerCertificate
+
+@{
+    ViewBag.Title = "Add Certificates";
+}
+
+<!-- Main container with Background Image -->
+<div class="container-fluid" style="height: 100vh; display: flex; justify-content: flex-start; padding: 50px; background-image: url('/Image/BackgroundAddSkill.png'); background-size: cover; background-position: center;">
+
+    <!-- Left side: Buttons and Form -->
+    <div style="width: 40%; display: flex; flex-direction: column; justify-content: flex-start; background-color: rgba(120, 149, 162, 0.8); padding: 30px; border-radius: 10px;">
+        <h2 style="font-size: 48px; font-weight: bold; color: white; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);">ADD CERTIFICATES</h2>
+
+        <!-- Certificate Upload Form -->
+        <form id="certificateForm" enctype="multipart/form-data" style="margin-top: 20px;">
+            <div class="form-group">
+                <label for="certificateFile" style="color: white; font-size: 20px; margin-bottom: 5px;">Upload Certificate</label>
+                <input type="file" id="certificateFile" class="form-control-file" style="margin-bottom: 20px;" />
+                <span asp-validation-for="DocName" class="text-danger"></span>
+            </div>
+
+            <!-- Add Certificate Button -->
+            <div class="form-group">
+                <button type="button" id="addCertificateBtn" class="btn btn-primary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px;">Add Certificate</button>
+            </div>
+
+            <input type="hidden" name="JobSeekerId" value="@ViewBag.JobSeekerId" />
+        </form>
+
+        <!-- Next Button -->
+        <div class="form-group">
+            <button type="button" id="nextBtn" class="btn btn-secondary" style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px;">Next</button>
+        </div>
+    </div>
+
+    <!-- Right side: Certificate Preview List -->
+    <div style="width: 50%; margin-left: 30px;">
+        <h3 style="color: white;">Uploaded Certificates</h3>
+
+        <!-- Dynamic Certificate Preview Section -->
+        <ul id="certificateList" class="list-group">
+            @if (ViewBag.Certificates != null)
+            {
+                foreach (var cert in ViewBag.Certificates)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center" data-doc-id="@cert.SupDocumentsId">
+                        <span>@cert.DocName</span>
+                        <button class="btn btn-danger btn-sm remove-cert-btn" data-doc-id="@cert.SupDocumentsId">Remove</button>
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <!-- JavaScript to handle dynamic certificate addition and removal -->
+    <script>
+        // Add Certificate using AJAX
+        $('#addCertificateBtn').click(function () {
+            var formData = new FormData();
+            var certificateFile = $('#certificateFile')[0].files[0];
+            var jobSeekerId = '@ViewBag.JobSeekerId';
+
+            if (certificateFile) {
+                formData.append("certificateFile", certificateFile);
+                formData.append("jobSeekerId", jobSeekerId);
+
+                $.ajax({
+                    url: '@Url.Action("AddCertificate", "JobSeekerCertificate")',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                        // Append the newly added certificate to the certificate list
+                        $('#certificateList').append(
+                            '<li class="list-group-item d-flex justify-content-between align-items-center" data-doc-id="' + data.docId + '">' +
+                            '<span>' + data.docName + '</span>' +
+                            '<button class="btn btn-danger btn-sm remove-cert-btn" data-doc-id="' + data.docId + '">Remove</button>' +
+                            '</li>'
+                        );
+
+                        // Clear the file input after successful addition
+                        $('#certificateFile').val('');
+                    },
+                    error: function () {
+                        alert("Error uploading certificate");
+                    }
+                });
+            } else {
+                alert("Please select a file to upload");
+            }
+        });
+
+        // Remove Certificate dynamically via AJAX
+        $(document).on('click', '.remove-cert-btn', function () {
+            var docId = $(this).data('doc-id');
+
+            $.ajax({
+                url: '@Url.Action("RemoveCertificate", "JobSeekerCertificate")',
+                type: 'POST',
+                data: { docId: docId },
+                success: function () {
+                    // Remove the certificate from the list
+                    $('li[data-doc-id="' + docId + '"]').remove();
+                },
+                error: function () {
+                    alert("Error removing certificate");
+                }
+            });
+        });
+
+        // Save Changes and Redirect to Dashboard
+        $('#nextBtn').click(function () {
+            var jobSeekerId = '@ViewBag.JobSeekerId';
+
+            $.ajax({
+                url: '@Url.Action("CompleteCertificates", "JobSeekerCertificate")',
+                type: 'POST',
+                data: { jobSeekerId: jobSeekerId },
+                success: function () {
+                    // Redirect to JobSeeker Dashboard after saving
+                    window.location.href = '@Url.Action("Index", "JobSeekerDashboard", new { jobSeekerId = ViewBag.JobSeekerId })';
+                },
+                error: function () {
+                    alert("Error completing certificates section");
+                }
+            });
+        });
+    </script>
+}

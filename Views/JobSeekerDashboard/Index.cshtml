@@ -1,0 +1,46 @@
+﻿@model JobPortal1.Models.JobSeeker
+
+<div class="container">
+    @if (Model.JobSeekerPersonalInfos != null && Model.JobSeekerPersonalInfos.Any())
+
+    {
+        <h2>Welcome, @Model.JobSeekerPersonalInfos.First().FirstName</h2>
+    }
+
+    else
+
+    {
+        <h2>Welcome, Job Seeker</h2>
+    }
+  
+
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Your Notifications</h3>
+            <ul class="list-group">
+                @if (ViewBag.Notifications != null && ViewBag.Notifications.Count > 0)
+
+                {
+                    foreach (var notification in ViewBag.Notifications)
+                    {
+                        <li class="list-group-item">
+                            @notification.Message - @notification.CreatedAt.ToShortDateString()
+                        </li>
+                    }
+
+                }
+
+                else
+
+                {
+                    <li class="list-group-item">No new notifications</li>
+                }
+            </ul>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Actions</h3>
+            <a href="@Url.Action("Index", "JobSeekerProfile", new { jobSeekerId = Model.JobSeekerId })" class="btn btn-primary">Go to Profile</a>
+        </div>
+    </div>
+</div>

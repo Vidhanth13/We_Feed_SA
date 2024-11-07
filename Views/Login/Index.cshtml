@@ -1,0 +1,52 @@
+﻿@model JobPortal1.Models.User
+
+@{
+    ViewBag.Title = "Login Page";
+}
+
+<!-- Main container with background image -->
+<div class="container-fluid" style="height: 100vh; background-image: url('/Image/backgroundLogin.png'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: flex-start; padding-left: 5%;">
+    <!-- Login form container -->
+    <div class="login-form" style="width: 350px; padding: 50px; background-color: rgba(255, 255, 255, 0.85); border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+        <!-- Login Header -->
+        <h1 style="font-size: 48px; font-weight: bold; color: #1D4E7B; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">LOGIN</h1>
+
+        <!-- Display error message if user not found -->
+        @if (TempData["LoginError"] != null)
+        {
+            <div class="alert alert-danger" style="margin-top: 20px; text-align: center;">
+                @TempData["LoginError"]
+            </div>
+        }
+
+        <form asp-action="Index" method="post">
+            <!-- Email Input -->
+            <div class="form-group mt-4">
+                <input asp-for="Email" class="form-control" placeholder="EMAIL ADDRESS"
+                       style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px; text-align: center;" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-group">
+                <input asp-for="PasswordHash" class="form-control" type="password" placeholder="PASSWORD"
+                       style="padding: 15px; font-size: 18px; border-radius: 30px; background-color: rgba(255, 255, 255, 0.8); border: none; margin-bottom: 20px; text-align: center;" />
+                <span asp-validation-for="PasswordHash" class="text-danger"></span>
+            </div>
+
+            <!-- Login Button -->
+            <div class="mt-4">
+                <button type="submit" class="btn btn-primary btn-block"
+                        style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px; width: 100%; margin-bottom: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+                    Login
+                </button>
+
+                <!-- Register Button -->
+                <a href="@Url.Action("Create", "UserRegister")" class="btn btn-secondary btn-block"
+                   style="background-color: #1D4E7B; border-radius: 25px; padding: 10px 40px; font-size: 16px; width: 100%; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+                    Register
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

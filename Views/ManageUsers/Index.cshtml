@@ -1,0 +1,63 @@
+﻿@model List<JobPortal1.Models.User>
+
+@{
+    ViewBag.Title = "Manage Users";
+}
+<a href="@Url.Action("Index", "AdminDashboard")" class="btn btn-secondary">Back to Admin Dashboard</a>
+<a href="@Url.Action("CreateAdmin", "ManageUsers")" class="btn btn-primary">Create Admin</a>
+<h2>Manage Users</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>User Type</th>
+            <th>Active Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>@user.UserType</td>
+                <td>@(user.IsActive ? "Active" : "Inactive")</td>
+
+                <td>
+                    <!-- Edit Button -->
+                    <a href="@Url.Action("Edit", "ManageUsers", new { id = user.UserId })" class="btn btn-primary">Edit</a>
+
+                    <!-- Deactivate/Activate Button -->
+                    <form asp-action="Deactivate" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@user.UserId" />
+                        <button type="submit" class="btn btn-warning">
+                <td>@(user.IsActive ? "Activate" : "Deactivate")</td>
+
+                        </button>
+
+                    </form>
+                   
+
+                    <style>
+                        .back-button {
+                            position: absolute;
+                            top: 20px;
+                            right: 20px;
+                        }
+                    </style>
+                    <style>
+                        .create-admin {
+                            position: absolute;
+                            top: 20px;
+                            right: 20px;
+                        }
+                    </style>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
